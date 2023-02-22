@@ -3,8 +3,8 @@
 $host = "localhost";
 $user = "root";
 $pwd = "";
-$dbname = "db_students";
-$table = "tblstudent";
+$dbname = "project";
+$table = "class_information_details";
 
 //mysqli_connect("localhost","root","","dba");
 /*
@@ -26,10 +26,12 @@ if ($mysqli->query($sql)) {
 	$mysqli->select_db($dbname);
 	
 	$mysqli->query("CREATE TABLE IF NOT EXISTS $table (
-		studid	INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-		studno VARCHAR(20) NOT NULL,
-		studname VARCHAR(30) NOT NULL,
-		year_sec VARCHAR(10) NOT NULL)
+		`class_info_id` int(11) NOT NULL,
+		`class_number` varchar(30) NOT NULL,
+		`letter_order_number` varchar(15) NOT NULL,
+		`general_order` varchar(30) NOT NULL,
+		`cert_ctrl_no` varchar(30) NOT NULL,
+		`student_reg_id` int(11) NOT NULL)
 		");
 
 	//if empty	
