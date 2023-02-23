@@ -26,7 +26,7 @@
 - Bautista, Rob Shandell Calosa - UI Design, read & search code
 - Bellaflor, Mariah Sidney Boado - UI Design, Create Code, Main Dashboard
 - Dulce, Daniel Alexis Siunam - UI Design, Delete Code
-- Escueta, Niña Thalia Anne D - UI Design, Update Code
+- Escueta, Niña Thalia Anne D - UI Design, Update Code, Main Dashboard
 - Ignacio, Marcus Ray Manalo - UI Design, Update Code
 - Ledesma, Jesriel Diogoro - UI Design, Delete Code
 - Ortiz, Alyana Kaye Tiongson - UI Design, Create Code
