@@ -1,8 +1,8 @@
 <?php 
 
-    require_once("connection.php");
-    $query = " select * from students_info ";
-    $result = mysqli_query($con, $query);
+    require_once("connection_student.php");
+    $query = " select * from students_info  ";
+    $result = mysqli_query($mysqli, $query);
 
 ?>
 
@@ -31,7 +31,21 @@
                             </tr>
 
                             <?php 
-                                    
+                                    if ($result === false) {
+                                        echo "Error: " . mysqli_error($mysqli);
+                                    } else {
+                                        while ($row = mysqli_fetch_assoc($result)) {
+                                        $first = $row['firstName'];
+                                        $middle = $row['middleName'];
+                                        $last = $row['lastName'];
+                                        $id = $row['studentId'];
+                                        $email = $row['email'];
+                                        $birthdate = $row['birthdate'];
+                                        $course = $row['course'];
+                                        }
+                                    }
+
+                                    /*
                                     while($row=mysqli_fetch_assoc($result))
                                     {
                                         $first = $row['firstName'];
@@ -41,6 +55,7 @@
                                         $email = $row['email'];
                                         $birthdate = $row['birthdate'];
                                         $course = $row['course'];
+                                    */
                             ?>
                                     <tr>
                                         <td><?php echo $first ?></td>
@@ -51,8 +66,9 @@
                                         <td><?php echo $birthdate ?></td>
                                         <td><?php echo $course ?></td>
                                     </tr>        
-                            <?php 
-                                    }  
+                            <?php   
+
+
                             ?>                                                                    
                                    
 
