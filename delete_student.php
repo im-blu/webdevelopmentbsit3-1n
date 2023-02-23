@@ -1,5 +1,5 @@
 <?php
-require("connection.php");
+require("connection_student.php");
 
 $students = mysqli_query($conn,"select * from student");
 $j = mysqli_affected_rows($conn);
