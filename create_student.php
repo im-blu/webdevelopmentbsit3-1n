@@ -1,6 +1,6 @@
 <?php 
 
-include "connection.php";
+include "connection_student.php";
 
   if (isset($_POST['submit'])) {
     
@@ -54,7 +54,7 @@ include "connection.php";
 					<a class="nav-link" href="#landing">HOME</a>
 				</li>
 				<li>
-					<a class="nav-link" href="read.php">STUDENT</a>
+					<a class="nav-link" href="read_student.php">STUDENT</a>
 				</li>
         <li>
           <a class="nav-link" href="#hobbies">COURSE</a>
