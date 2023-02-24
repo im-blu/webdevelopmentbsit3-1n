@@ -1,0 +1,116 @@
+/*login form inside right side column*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+.login-form {
+    margin: 80px auto 12px;
+    width: 880px;
+    height: 483px;
+    padding: 20px 38px 30px;
+    float: right;
+    text-align: center;
+}
+
+/*log in title in log in page*/
+h1.login-title {
+    color: #681a1a;
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    font-weight: bold;
+    word-spacing: 3px;
+    font-family: Montserrat;
+}
+
+p.reminder{
+    color: #666;
+    font-size: 15px;
+    margin-bottom: 30px;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    font-family: Montserrat;
+}
+
+/*log in text fields in log in page*/
+.login-input {
+    font-size: 20px;
+    font-family: Montserrat;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 240px;
+    height: 55px;
+    width: 320px;
+    padding-left: 55px;
+}
+
+/*log in button styles*/
+.login-button {
+    color: #fffcfa;
+    background: #681a1a;
+    border: 0;
+    outline: 0;
+    width: 320px;
+    height: 50px;
+    font-size: 30px;
+    font-family: Montserrat;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 8px 0px 15px;
+}
+
+.login-button:hover {
+  background-color: #4a0b0b;
+}
+
+/*error messages*/
+p.error{
+    color: #681a1a;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+}
+
+.Icon-inside, .Icon-inside1 {
+    position: relative;
+}
+
+.Icon-inside i {
+    position: absolute;
+    left: 250px;
+    top: 3px;
+    padding: 11px 20px;
+    color: #681a1a;
+    margin-left: -9px;
+    opacity: 90%;
+}
+
+.Icon-inside1 i {
+    position: absolute;
+    left: 250px;
+    top: 70px;
+    padding: 11px 20px;
+    color: #681a1a;
+    margin-left: -9px;
+    opacity: 90%;
+}
+
+hr.line1{
+  border-top: 1px solid #681a1a;
+  width: 80%;
+  float: right;
+  margin: 50px auto 0px;
+}
+
+hr.line2{
+  border-top: 1px solid #681a1a;
+  width: 80%;
+  float: left;
+  margin: -40px auto 50px;
+}
+
+

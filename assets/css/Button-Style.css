@@ -1,0 +1,5 @@
+.btn, .btn:hover, .btn:active, .btn:visited {
+    color: white;
+    background-color: #681a1a !important;
+    text-decoration: none !important;
+}

@@ -1,0 +1,80 @@
+/*access-level-form*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+.access-form {
+    margin: 90px 0px 50px;
+    width: 750px;
+    height: 485px;
+    padding: 10px 50px 10px;
+    color: #fffcfa;
+}
+
+h1.access-title {
+    color: #681a1a;
+    margin-top: 10px;
+    margin-left: 80px;
+    font-size: 50px;
+    font-weight: 300;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: Montserrat;
+    text-shadow: 0px 3px 3px rgba(0,0,0,0.3),
+                 0px 8px 20px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+h5.access-title {
+    color: black;
+    margin: 10px 0px 30px 45px;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    font-weight: bold;
+    font-family: Montserrat;
+    font-weight: 300;
+}
+
+.access-button1, .access-button2, .access-button3 {
+    color: #681a1a;
+    background: none;
+    border: 2px solid #681a1a;
+    outline: 0;
+    width: 330px;
+    height: 70px;
+    font-size: 35px;
+    font-family: Montserrat;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+}
+
+.access-button1:hover, .access-button2:hover, .access-button3:hover {
+  background-color: #4a0b0b;
+  color: #fffcfa;
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.05);
+}
+
+.register{
+    margin-top: 0px;
+}
+
+p.register{
+  color: #666;
+  text-align: center;
+}
+
+a:link{
+  color: #666;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #681a1a;
+}
+

@@ -1,0 +1,199 @@
+/*registration form inside left side column*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+.registration-form {
+    margin: 20px 65px -4px;
+    width: 750px;
+    height: 529px;
+    padding: 0px;
+    border-radius: 15px;
+    float: right;
+}
+
+
+/*for registration title*/
+h1.registration-title {
+    color: #681a1a;
+    margin-left: 50px;
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    font-weight: bold;
+}
+
+p.reminder{
+    color: #666;
+    font-size: 15px;
+    margin-left: 70px;
+    margin-bottom: 30px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+}
+
+/*for text field*/
+.registration-input {
+    font-size: 20px;
+    font-family: Montserrat;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    height: 55px;
+    width: 320px;
+    padding-left: 55px;
+}
+
+table{
+    margin-left: 50px;
+}
+
+td.left-table{
+    padding-left: 0px;
+    padding-right: 25px;
+    border: none;
+}
+
+td.right-table{
+    border: none;
+}
+
+.options{
+    color: #666;
+    font-size: 25px;
+    font-family: Montserrat;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 52px;
+    margin-bottom: 20px;
+    height: 55px;
+    width: 667px;
+    text-align: center;
+}
+
+/*for register button*/
+.register-button {
+    color: #fffcfa;
+    background: #681a1a;
+    border: 0;
+    outline: 0;
+    width: 665px;
+    height: 60px;
+    font-size: 30px;
+    font-family: Montserrat;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 53px;
+    margin-bottom: 15px;
+}
+
+.register-button:hover {
+    background-color: #4a0b0b;
+}
+
+/*a href link styles*/
+a:link{
+    color: #666;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #360e17;
+}
+
+p.login{
+    margin-top: 15px;
+    color: #666;
+    text-align: center;
+}
+
+/*error messages*/
+p.error{
+    color: #681a1a;
+    font-size: 15px;
+    text-align: center;
+    margin: 0px;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+}
+
+hr.line1{
+  border-top: 1px solid #681a1a;
+  width: 80%;
+  float: right;
+  margin: 20px auto 10px;
+}
+
+hr.line2{
+  border-top: 1px solid #681a1a;
+  width: 80%;
+  float: left;
+  margin: 30px auto 30px;
+}
+
+.Icon-inside, .Icon-inside1, .Icon-inside2, .Icon-inside3, .Icon-inside4, .Icon-inside5  {
+    position: relative;
+}
+
+.Icon-inside i {
+    position: absolute;
+    left: 60px;
+    top: 3px;
+    padding: 11px 20px;
+    color: #681a1a;
+    margin-left: -9px;
+    opacity: 90%;
+}
+
+.Icon-inside1 i {
+    position: absolute;
+    left: 405px;
+    top: 3px;
+    padding: 11px 20px;
+    color: #681a1a;
+    margin-left: -9px;
+    opacity: 90%;
+}
+
+.Icon-inside2 i {
+    position: absolute;
+    left: 60px;
+    top: 70px;
+    padding: 11px 20px;
+    color: #681a1a;
+    margin-left: -9px;
+    opacity: 90%;
+}
+
+.Icon-inside3 i {
+    position: absolute;
+    left: 405px;
+    top: 70px;
+    padding: 11px 20px;
+    color: #681a1a;
+    margin-left: -9px;
+    opacity: 90%;
+}
+
+.Icon-inside4 i {
+    position: absolute;
+    left: 60px;
+    top: 140px;
+    padding: 11px 20px;
+    color: #681a1a;
+    margin-left: -9px;
+    opacity: 90%;
+}
+
+.Icon-inside5 i {
+    position: absolute;
+    left: 405px;
+    top: 140px;
+    padding: 11px 20px;
+    color: #681a1a;
+    margin-left: -9px;
+    opacity: 90%;
+}
